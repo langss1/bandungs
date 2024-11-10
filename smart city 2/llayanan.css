@@ -1,0 +1,114 @@
+
+/* Banner */
+.banner {
+    background: url('banner-background.jpg') no-repeat center center/cover;
+    color: black;
+    font-family: poppins;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.banner h6{
+    margin-top: 40px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.banner p {
+    font-size: 50px;
+    margin-right: 80px;
+}
+
+/* Service Container */
+.service-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+
+}
+
+.service-item a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Service Card */
+.service-card {
+    background-color: #d5b796;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+    width: 1200px;
+    height: 400px;
+}
+
+.service-card h2 {
+    font-size: 1.5rem;
+    color: #1c3d80;
+    font-weight: bold;
+    margin-bottom: 5px;
+    borde
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service-card hr {
+    border: none;
+    height: 1px;
+    background-color: #333;
+    margin: 10px 0;
+}
+
+/* Service List */
+.service-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Service Item */
+.service-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+}
+
+.service-item .icon {
+    font-size: 1.2rem;
+    color: #1c3d80;
+}
+
+/* Responsive Layout for Laptop/Desktop */
+@media (min-width: 1024px) {
+    .service-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .service-card {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .banner h1 {
+        font-size: 3rem;
+    }
+
+    .banner p {
+        font-size: 1.3rem;
+    }
+}

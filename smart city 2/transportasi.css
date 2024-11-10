@@ -1,0 +1,94 @@
+.transportasi > p {
+  font-size: clamp(2rem, 0.286rem + 3.571vw, 3rem);
+}
+
+.transportasi {
+  padding-top: 90px;
+  font-size: clamp(1rem, 0.286rem + 3.571vw, 1.5rem);
+  font-family: poppins;
+  width: 1138px;
+  margin: 10px auto;
+}
+
+.tarif {
+  height: 80px;
+  width: 100%;
+  margin: 10px auto;
+  border-radius: 30px;
+  background: rgb(240,210,177);
+background: linear-gradient(90deg, rgba(240,210,177,1) 0%, rgba(249,222,191,1) 35%, rgba(255,238,213,1) 100%);
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  line-height: 80px;
+}
+
+.tarif > p {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0 45px;
+  color: white;
+  font-family: poppins;
+}
+
+.nama > p, .rute > p {
+    font-size: 2rem;
+    color: #102C57;
+    font-weight: 700;
+    font-family: poppins;
+}
+
+.rute {
+    margin: 40px auto 10px 0;
+    background-color: rgb(222, 229, 229);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.rute > p, .rute > div {
+    font-size: 1.5rem;
+    margin: 20px auto;
+}
+
+.rute > div > img {
+    width: 20px;
+}
+
+.pemberhentian {
+  text-align: center;
+  margin: 20px auto;
+  font-family: poppins;
+  font-size: clamp(0.5rem, 0.286rem + 3.571vw, 1.5rem);
+}
+
+@media (max-width: 575.98px)  {
+  .transportasi {
+    padding: 10px;
+    width: inherit;
+  }
+
+  .transportasi img {
+    width: 100%;
+  }
+
+  .nama {
+    text-align: center;
+  }
+  .rute-container, .tarif, .foto-container {
+    width: 90%;
+    margin: 0 auto 20px auto;
+  }
+  .transportasi > p {
+    width: inherit;
+  }
+  .pemberhentian {
+    font-size: 15px;
+  }
+  .rute > p {
+    font-size: 18px;
+  }
+}

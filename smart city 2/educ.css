@@ -1,0 +1,192 @@
+
+
+.hero {
+    text-align: center;
+    padding: 30px 50px;
+}
+
+
+.hero img {
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.hero p {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.1em;
+    font-family: poppins;
+    line-height: 1.6;
+    color: #555;
+}
+
+.university-info-card a{
+    text-decoration: none;
+}
+
+.education-levels {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 50px;
+}
+
+
+.education-levels button {
+    padding: 10px 20px;
+    background-color: #2b3a58;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.top-universities {
+    background-color: #e0d5c0;
+    padding: 30px 50px;
+    border-radius: 20px;
+    margin: 20px 50px;
+}
+
+.top-universities h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.universities-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+.universities-cards a {
+    text-decoration: none;
+    color: black;
+}
+
+.other-universities-buttons a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.university-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.university-card img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.university-card h3 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.search-university {
+    background-color: #e0d5c0;
+    padding: 30px 50px;
+    border-radius: 20px;
+    margin: 20px 50px;
+}
+
+.search-university h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.university-info-card {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.university-info-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.university-info h3 {
+    margin-bottom: 10px;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.university-info button {
+    margin-top: 10px;
+    padding: 8px 20px;
+    background-color: #d5b99a;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.other-universities {
+    background-color: #ccc;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.other-universities h2{
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.other-universities-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.other-universities-buttons button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.other-universities-buttons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
