@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Pembuatan KTP</title>
+  <link rel="stylesheet" href="pktp.css">
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <a href = "llayanan.html"><button class="back-btn">⬅️</button>
+    <h1>Form Pembuatan KTP</h1>
+</a> 
+  </header>
+  <img src="./images/ktp.jpg" alt="KTP" class="ktp-image">
+  <p class="guide">Panduan pengisian: <a href="https://bit.ly/blablabla">bit.ly/blablabla</a></p>
+
+  <form>
+    <label for="nama">Nama</label>
+    <input type="text" id="nama" name="nama" placeholder="Masukkan Nama Anda">
+
+    <label for="nik">NIK</label>
+    <input type="text" id="nik" name="nik" placeholder="Masukkan NIK Anda">
+
+    <label for="tempat-tanggal-lahir">Tempat Tanggal Lahir</label>
+    <input type="text" id="tempat-tanggal-lahir" name="tempat-tanggal-lahir" placeholder="Contoh: Bekasi, 23 Oktober 2005">
+
+    <label>Umur</label>
+    <div class="age-inputs">
+      <select><option>27</option></select>
+      <select><option>10</option></select>
+      <select><option>1945</option></select>
+    </div>
+    <p class="note">(!) umur harus di atas 17 tahun</p>
+
+    <label>Jenis Kelamin</label>
+    <select>
+      <option>Choose</option>
+      <option>Laki - Laki</option>
+      <option>Wanita</option>
+    </select>
+
+    <label>Agama</label>
+    <select>
+      <option>Choose</option>
+      <option>Islam</option>
+      <option>Kristen</option>
+      <option>Katholik</option>
+      <option>Hindu</option>
+      <option>Buddha</option>
+      <option>Konghucu</option>
+    </select>
+
+    <label>Status Perkawinan</label>
+    <select>
+      <option>Choose</option>
+    </select>
+
+    <label>Pekerjaan</label>
+    <select>
+      <option>Choose</option>
+    </select>
+
+    <label>Kewarganegaraan</label>
+    <select>
+      <option>Choose</option>
+    </select>
+
+    <label>Foto Diri</label>
+    <p class="note">(!) Untuk kelahiran tahun genap memakai background biru</p>
+    <p class="note">(!) Untuk kelahiran tahun ganjil memakai background merah</p>
+    <input type="file">
+
+    <label>TTD</label>
+    <p class="note">(!) TTD dibuat di file Word</p>
+    <input type="file">
+
+    <div class="checkbox">
+      <input type="checkbox">
+      <label>Saya menyetujui bahwa data yang saya kirim disini benar adanya dan akan digunakan untuk kepentingan membuat data kependudukan</label>
+    </div>
+
+    <button type="submit" class="submit-btn"><a href ="sukses.html">SUBMIT REGISTRASI</a></button>
+  </form>
+</div>
+
+</body>
+</html>

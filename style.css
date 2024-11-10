@@ -1,0 +1,418 @@
+
+.berita,
+.layanan,
+.sight,
+.footer-content,
+.event,
+.sosialisasi {
+  max-height: 520px;
+  max-width: 1138px;
+  margin: 10px auto;
+  min-width: 576px;
+  height: 520px;
+}
+
+.berita > p,
+.layanan > p,
+.event > p,
+.sight > p,
+.sosialisasi > p {
+  font-size: clamp(2rem, 0.286rem + 3.571vw, 3.5rem);
+  font-family: poppins;
+}
+
+.navbar {
+  background-color: #dac0a3;
+  height: 88px;
+}
+
+.nav-btn > ul > li:first-child {
+  margin-left: 120px;
+}
+
+.nav-btn > ul > li {
+  margin-right: 52px;
+  color: white;
+  position: relative;
+  text-decoration: none;
+  font-family: poppins;
+}
+
+.nav-btn > ul > li::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  border-radius: 4px;
+  background-color: white;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.2s ease-in;
+  -webkit-transition: transform 0.2s ease-in;
+  -moz-transition: transform 0.2s ease-in;
+  -ms-transition: transform 0.2s ease-in;
+  -o-transition: transform 0.2s ease-in;
+}
+
+.nav-btn > ul > li:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.nav-item > a {
+  text-decoration: none;
+  color: azure;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 0 0 20px;
+  color: white;
+}
+
+.logo > div > p:first-child {
+  font-weight: bold;
+  font-size: 27px;
+  margin: 0px 0 0 8px;
+}
+
+.logo > div > p:last-child {
+  font-size: 0.625rem;
+  margin: 0 0 0 10px;
+}
+
+.berita-slide {
+  width: 100%;
+  white-space: nowrap;
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 10px;
+  min-width: 575px;
+}
+
+.berita-element {
+  width: 21rem;
+  height: 25rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  position: relative;
+  float: none;
+  margin: 0 0.25%;
+  display: inline-block;
+  zoom: 1;
+  cursor: pointer;
+}
+
+.berita-element > div {
+  text-wrap: wrap;
+  width: 19rem;
+  margin: 5px auto;
+  text-align: left;
+}
+
+.berita-element a {
+  text-decoration: none;
+  color: rgb(57, 57, 57);
+}
+
+.event-slide {
+  white-space: nowrap;
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.event-slide:last-child {
+  margin-right: 20px;
+}
+
+.event-element {
+  width: 550px;
+  position: relative;
+  background-color: #102c57;
+  float: none;
+  margin: 0 0.25%;
+  display: inline-block;
+  zoom: 1;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  cursor: pointer;
+}
+
+.event-element > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.img-event {
+  width: 600px;
+  border-radius: 10px;
+}
+
+.event-element:hover .img-event {
+  width: 100%;
+  border-radius: 10px;
+  opacity: 100%;
+  filter: brightness(50%);
+}
+
+.sight-slide {
+  margin: 0 auto;
+  width: 100%;
+  white-space: nowrap;
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sight-element {
+  cursor: pointer;
+  width: 250px;
+  height: 290px;
+  padding-bottom: 10px;
+  float: none;
+  margin: 0 0.25%;
+  display: inline-block;
+  zoom: 1;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.sight-element > img {
+  border-radius: 10px 10px 0 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -ms-border-radius: 10px 10px 0 0;
+  -o-border-radius: 10px 10px 0 0;
+}
+
+footer {
+  width: 100%;
+  height: 520px;
+  background-color: #102c57;
+  color: white;
+}
+
+footer > div > div > h6 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 200;
+}
+
+footer > div > div > p {
+  font-weight: 50;
+  font-size: 1rem;
+}
+
+.laporan {
+  height: 200px;
+  width: 1138px;
+  margin: 10px auto;
+  border-radius: 50px;
+  background-color: #ebd0b2d5;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border: 1px solid #dac0a3;
+}
+
+.coklat {
+  color: #dac0a3;
+}
+
+.laporan > div > p {
+  width: 576px;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.laporan > div > button {
+  background-color: #102c57;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  width: 200px;
+  height: 80px;
+  color: white;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.laporan > div > button:hover {
+  background-color: red;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  width: 200px;
+  height: 80px;
+  color: white;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.layanan-container {
+  text-align: center;
+}
+
+.layanan-container > div > a {
+  text-decoration: none;
+  color: black;
+}
+
+.layanan-item {
+  padding: 10px 0;
+  font-weight: 600;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+    rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+.layanan-item:hover {
+  background-color: #102c57;
+  color: white;
+}
+
+@media (max-width: 575.98px) {
+  body {
+    margin-top: 57px;
+  }
+
+  .berita,
+  .layanan,
+  .sight,
+  .footer-content,
+  .event,
+  .sosialisasi, .laporan {
+    width: inherit;
+    text-align: left;
+    height: inherit;
+  }
+
+  .berita > p,
+.layanan > p,
+.sosialisasi > p {
+  font-size: clamp(2rem, 0.286rem + 3.571vw, 3.5rem);
+  font-family: poppins;
+  margin-left: 10px;
+}
+
+  .navbar {
+    height: 66px;
+  }
+
+  .logo {
+    margin: 0px 0  0 15px;
+  }
+
+  .logo img {
+    height: 40px;
+    margin: 0;
+  }
+  
+  .logo > div > p:first-child {
+    font-size: 18px;
+  }
+  
+  .logo > div > p:last-child {
+    font-size: 0.4rem;
+  }
+
+  .berita-element {
+    width: 248px;
+    height: 300px;
+    font-size: 12px;
+  }
+
+  .berita-element > div p {
+    width: 230px;
+    margin: 0 0 0 8px;
+  }
+
+  .berita-element > div h3 {
+    margin: 0 0 0 7px;
+  }
+
+  .layanan-container {
+    width: 560px;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+  }
+
+  .event-slide {
+    margin-left: 10px;
+  }
+
+  .sight {
+    margin-bottom: 70px;
+  }
+
+  .laporan {
+    padding: 0;
+    display: block;
+    height: 200px;
+    background-color: white;
+    border: none;
+  }
+
+  .laporan > div > p {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #102c57;
+  }
+
+  .laporan > div > button {
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-weight: 600;
+    font-size: 0.75rem;
+  }
+
+  .laporan > div > button:hover {
+    background-color: red;
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-weight: 600;
+    font-size: 0.75rem;
+  }
+
+}
